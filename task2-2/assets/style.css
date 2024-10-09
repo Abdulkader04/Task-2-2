@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+nav div {
+  background-color: #313633;
+  color: white;
+  text-decoration: none;
+  width: calc(100% / 7);
+}
+nav div a {
+  text-decoration: none;
+  color: white;
+  transition: background-color 2s ease-out 100ms;
+}
+nav div a:hover {
+  text-shadow: 2px 2px #f1f9fb;
+  transition: 0.5s;
+  background-color: #03a9f4;
+}
+.hero {
+  position: relative;
+}
+.hero img {
+  height: calc(100vh - 40px);
+  width: 100%;
+}
+.hero::before {
+  content: "Wellcome To Online Course";
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(50, 52, 49, 0.5);
+  border-radius: 5px;
+}
+.about {
+  text-align: center;
+  padding: 100px;
+  background-color: #f1f9fb;
+}
+.about h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.about p {
+  font-size: 20px;
+  line-height: 40px;
+  letter-spacing: 2px;
+}
+.services {
+  text-align: center;
+  padding: 100px;
+  background-color: #03a9f4;
+}
+.services h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+div span {
+  font-weight: bolder;
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.services-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.specialization {
+  text-align: center;
+  background-color: #f1f9fb;
+  padding: 100px 0;
+}
+.specialization h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.specialization-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.specialization-container div span {
+  font-weight: bolder;
+  font-size: 25px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.teachers {
+  background-color: #03a9f4;
+  text-align: center;
+  padding: 100px;
+}
+.teachers h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.teachers-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.teachers-container div img {
+  width: 150px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.teachers-container div span {
+  display: block;
+}
+.plans {
+  text-align: center;
+  background-color: #f1f9fb;
+  padding: 100px;
+}
+.plans h2 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+.plans-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: start;
+}
+.plans-container div {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #03a9f4;
+}
+.plans-container div img {
+  width: 250px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.plans-container div span {
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.plans-container div ul {
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.plans-container div span {
+  font-size: 30px;
+}
+.plans-container div p {
+  background-color: #fbe88a;
+  border: 3px solid #f6d726;
+  padding: 5px;
+  border-radius: 5px;
+}
+.contact {
+  background-color: #03a9f4;
+  padding: 100px;
+}
+.contact h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+.contact-container form {
+  padding-bottom: 100px;
+}
+.contact-container form input {
+  width: 400px;
+}
+.contact-container form textarea {
+  width: 400px;
+  margin-bottom: 20px;
+}
+.contact-container form label {
+  display: block;
+}
+.contact-container form .button {
+  display: block;
+  color: white;
+  background-color: #313633;
+  width: 250px;
+  border-radius: 5px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+.contact span {
+  text-align: center;
+  display: block;
+}
+footer {
+  background-color: #313633;
+  text-align: center;
+  padding: 10px 0;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  /* text-align: center; */
+  margin: 0 10px;
+}
